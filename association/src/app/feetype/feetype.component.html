@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8">
+            <h3 style="text-align: center; margin-top: 40px;"> Fee Payment</h3>
+
+        </div>
+        <div class="col-2">
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8" style="background-color:#3d4a50;; margin-top: 30px;">
+            <form name="form" class="fee_form">
+                <div class="row">
+                    <div class="col-6" style="margin-top: 30px; margin-bottom: 30px; text-align: left; padding-left: 30px;">
+                        <div>
+                            <label for="fname" class="New Fee Type" style="color:white"> New Fee Type</label>
+                            <input type="text" id="feetype" class="form-control">
+                        </div>
+
+                        <div style="padding-top: 20px;">
+                            <label for="adress" style="text-align: center; color: white;">Remarks</label>
+                            <textarea id="remarks" name="adress" style="height:130px;" class="form-control"></textarea>
+                        </div>
+                        <div class="button " style="text-align: center;font-size: 30px; padding-top: 20px;">
+                            <button type="submit" class=" btn btn-color" (click)="submit()" (click)="false" >Submit</button>
+                            
+                          </div> 
+
+                    </div>
+                    <div class="col-6" style="text-align: center;margin-top: 80px;">
+                        <h4 style="color: white;" class="role">List Role</h4>
+                        <div class="block center">
+                         <li class="list" *ngFor="let fs of fee">{{fs.feetype}}</li> 
+                    </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-2">
+
+        </div>
+    </div>
+</div>

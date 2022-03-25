@@ -1,0 +1,19 @@
+label{
+  font-size: 18px;
+}
+.txt {
+  width: 600px;
+  padding: 0 20px;
+}
+
+.txt,
+.txt::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+}
+label{
+  color: rgb(187, 115, 7);
+}
+  
+
+  
