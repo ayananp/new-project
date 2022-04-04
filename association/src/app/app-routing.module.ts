@@ -6,11 +6,12 @@ import { ContactComponent } from './contact/contact.component';
 import { MyprofileComponent } from './myprofile/myprofile.component';
 import { EditprofileComponent } from './editprofile/editprofile.component';
 import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
-
+import { FeetypeComponent } from './feetype/feetype.component';
 const routes: Routes = [
   { path: 'myprofile', component: MyprofileComponent},
   { path: 'editprofile', component: EditprofileComponent},
-  { path: 'resetpassword', component: ResetpasswordComponent}
+  { path: 'resetpassword', component: ResetpasswordComponent},
+  { path: 'logout', component: FeetypeComponent}
 ];
 
 @NgModule({
